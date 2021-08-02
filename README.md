@@ -19,6 +19,24 @@ Deliverables were:
     2. **Technical presentation** giving details of the techniques applied during data processing and modelling.
 
 ## Planning
+### Identifying the problem
+
+The key criteria for excellence in cocktail making have been widely discussed by professional bartenders and mixologists. Among these criteria are:
+- An eye catching or descriptive name.
+- Quality ingredients in a unique formulation.
+- A memorable story or interesting inspiration.
+- The look.
+- The purpose.
+
+However, in the world of user-submitted recipe sites the criteria may be quite different. I hypothesize that:
+- The simplest recipes are the most popular.
+- Drinks containing familiar ingredients are more popular than those with unusual ingredients.
+
+### Stakeholders
+
+Stakeholders for this project include:
+- **Myself.** I plan to create a recipe-generator bot which will invent and publish cocktail recipes. The insights generated in this regression analysis will be vital in creating popular recipes.
+- **Drinks manufacturers.** Many drinks manufacturers provide recipes to inspire and encourage the customer to buy their products. Understanding the driving forces behind recipe popularity will aid their recipe writing and may boost sales.
 
 ## Data
 
