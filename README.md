@@ -8,15 +8,25 @@ For this regression project I applied supervised learning to solve a regression 
 ## Project Brief & Deliverables
 
 The project brief was to:
-* identify an industry relevant prediction problem.
-* develop a solution to this problem.
-* present the results.
+* Identify an industry relevant prediction problem.
+* Develop a solution to this problem.
+* Present the results.
 
 Deliverables were:
-* a GitHub repo containing all code.
-* presentation in two parts:
-    1. **Non-technical presetation** highlighting the problem and the solution at a high level. It should explain the results that were attained and how they will drive business value.
-    2. **Technical presentation** giving detail of the techniques applied during data processing and modelling.
+* A GitHub repo containing all code.
+* A presentation in two parts:
+    1. **Non-technical presentation** highlighting the problem and the solution at a high level. This part explained the results that were attained and how they will drive business value.
+    2. **Technical presentation** giving details of the techniques applied during data processing and modelling.
+
+## Planning
+
+## Data
+
+## Modelling
+
+## Presentation
+
+## Code
 
 
 
