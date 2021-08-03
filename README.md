@@ -89,10 +89,25 @@ clean_rating = clean_star_rating(messy_star_rating)
 ```
 
 ## Modelling
-A random seed was applied at the start of the Jupyter notebook for the purposes of reproducibility.
+A random seed was applied at the start of the Jupyter notebook for the purposes of reproducibility. Regression models were selected from `sklearn`.
+
+## Results
+
+|Method | Hyperparameter | Training Score | Validation Score|
+|-------|----------------|----------------|-----------------|
+|Linear Regression (baseline)| - | 0.056 | 0.028|
+|Ridge|alpha=10.0|0.056|0.028|
+|Lasso|alpha=0.1|0.054|0.033|
+|KNN|n_neighbors=4|0.00047|-0.073|
+
+
 ## Presentation
-For the technical presentation, `main.ipynb` was used.
-## Code
+`main.ipynb` was used for the presentation.
 
+## Usage
 
-
+Library requirements for this project are set out in requirements.txt. These can be installed as follows:
+```
+pip install -r requirements.txt
+```
+Python version = 3.9.5
