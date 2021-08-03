@@ -100,6 +100,7 @@ A random seed was applied at the start of the Jupyter notebook for the purposes 
 |Lasso|alpha=0.1|0.054|0.033|
 |KNN|n_neighbors=4|0.00047|-0.073|
 
+This data was not well modelled by regression analysis. There is some evidence of overfitting with all models, and the best perfomance was obtained using L1 regularization, i.e. Lasso regression. In the case of Lasso regression, perfomrance on the training set was slightly worse, but we saw better performance on the validation set. 
 
 ## Presentation
 `main.ipynb` was used for the presentation.
