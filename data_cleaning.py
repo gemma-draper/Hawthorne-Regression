@@ -14,7 +14,7 @@ def get_data():
     Returns a pandas DataFrame.
     Requires credentials.txt file in the same dir with database credentials.
     """
-    
+
     # get aws rds credentials from txt file
     credentials = []
     with open('credentials.txt','r') as f:
@@ -33,7 +33,7 @@ def get_data():
 
     return df
 
-class Ingredients_cleaning:
+class Ingredients_Cleaning:
     def __init__(self) -> None:
         pass
 

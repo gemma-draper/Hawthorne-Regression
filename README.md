@@ -59,9 +59,9 @@ Success will be measured by :
 Some data cleaning was performed in part one of [Project Hawthorne](https://github.com/gemma-draper/Project-Hawthorne). 
 
 #### Ingredients & Method
-For easy manipulation in Python, each recipe occupies a single row of a pandas DataFrame. The DataFrame contains 15 ingredients columns (`ingredient_0` to `ingredient_14`); recipes which have fewer than 15 ingredients contain null values in the unused ingredient columns. 
+For easy manipulation in Python, each recipe occupies a single row of a pandas DataFrame. The DataFrame contains 15 ingredients columns (`ingredient_0` to `ingredient_14`); recipes which have fewer than 15 ingredients contain `None` values in the unused ingredient columns. 
 
-The same approach was used for the method; the DataFrame contains 11 method columns (`step_0` to `step_10`) and recipes with fewer steps contain null values in unused columns.
+The same approach was used for the method; the DataFrame contains 11 method columns (`step_0` to `step_10`) and recipes with fewer steps contain `None` values in unused columns.
 
 #### Star rating
 Star rating did not always appear in integer or string format in recipes from allrecipes.co.uk. However, there was always a pictoral representation of star rating, and a class attribute description such as "rating4" or "rating45" for a star rating of 4 or 4.5, respectively. 
@@ -88,14 +88,10 @@ messy_star_rating = star_rating_box.get_attribute('class')
 clean_rating = clean_star_rating(messy_star_rating)
 ```
 
-#### Ingredients
-Each ingredient occupies an individual 
-
-A random seed was applied at the start of the Jupyter notebook for the purposes of reproducibility.
 ## Modelling
-
+A random seed was applied at the start of the Jupyter notebook for the purposes of reproducibility.
 ## Presentation
-
+For the technical presentation, `main.ipynb` was used.
 ## Code
 
 
